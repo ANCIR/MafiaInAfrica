@@ -1,0 +1,25 @@
+
+.masthead {
+
+  background: url("/img/road.jpg") no-repeat center ;
+  background-size: cover ;
+
+  color: #fff !important;
+  text-align: center;
+
+  .masthead-inner {
+    padding: 40px 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+  }
+
+  h1 {
+    font-size: 5em;
+    color: #ffffff;
+  }
+
+  h2 {
+    color: #ffffff;
+  }
+}
