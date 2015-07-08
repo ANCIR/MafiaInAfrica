@@ -1,22 +1,76 @@
 ---
 layout: default
 
+title: Mafia In Africa
+sub_title: How the Mafia infiltrates the African economy
+
 custom_css: mafrica-vis
 custom_js: mafrica-vis
 ---
 
 <div class="home">
 
-  <div class="masthead">
-    <div class="masthead-inner">
-      <div class="container">
-        <h1>Mafia In Africa</h1>
-        <h2>How the Mafia infiltrates the African economy</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        {% include mafrica-vis.html %}
+      </div>
+      <div class="col-md-5">
+        <p class="lead">The Italian mafia has established a hidden but lethal presence in Africa. Its members own
+          diamond mines, nightclubs and land, all with the complicity of corrupt regimes.</p>
+
+        <h2>Articles</h2>
+        <p class="lead"></p>
+        <div class="row">
+          <div class="col-xs-6">
+            <a href="#" class="thumbnail">
+              <img src="{{ '/img/cosa_nostra_diamonds/pic_1_home.jpg' | prepend: site.baseurl }}" alt=""/>
+
+              <h3>Cosa Nostra Diamonds</h3>
+            </a>
+          </div>
+          <div class="col-xs-6">
+            <a href="#" class="thumbnail">
+              <img src="{{ '/img/kenyas_safe_haven/pic_1_home.jpg' | prepend: site.baseurl }}" alt=""/>
+
+              <h3>Kenya's Safe Haven</h3>
+            </a>
+          </div>
+          <div class="col-xs-6">
+            <a href="#" class="thumbnail">
+              <img src="{{ '/img/cosa_nostra_ag/pic_1_home.jpg' | prepend: site.baseurl }}" alt=""/>
+
+              <h3>‘Cosa Nostra AG’</h3>
+            </a>
+          </div>
+          <div class="col-xs-6">
+            <a href="#" class="thumbnail">
+              <img src="{{ '/img/africa_is_cosa_nostra/pic_1_home.jpg' | prepend: site.baseurl }}" alt=""/>
+
+              <h3>Africa: is Cosa Nostra</h3>
+            </a>
+          </div>
+          <div class="col-xs-6">
+            <a href="#" class="thumbnail">
+              <img src="{{ '/img/charter_house_bank/pic_1_home.jpg' | prepend: site.baseurl }}" alt=""/>
+
+              <h3>Charter House Bank</h3>
+            </a>
+          </div>
+
+          <div class="col-xs-6">
+            <a href="#" class="thumbnail">
+              <img src="{{ '/img/kenyas_drug_barons/pic_1_home.jpg' | prepend: site.baseurl }}" alt=""/>
+
+              <h3>Kenya's Drug Barons</h3>
+            </a>
+          </div>
+
+        </div>
+
       </div>
     </div>
   </div>
-
-  {% include mafrica-vis.html %}
 
   <h1 class="page-heading">Posts</h1>
 
