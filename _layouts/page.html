@@ -1,7 +1,20 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="page">
+
+  <div class="masthead">
+    <h1 class="logo"><img src="{{ '/img/logo.jpg' | prepend: site.baseurl }}"/> A.N.C.I.R.</h1>
+    <div class="masthead-outer"
+         style="background-image: url('{% if page.masthead_pic %}{{ page.masthead_pic }}{% endif %}');">
+      <div class="masthead-inner">
+        <div class="container">
+          <h1>{{ page.title }}</h1>
+          <h2>{{ page.sub_title }}</h2>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>

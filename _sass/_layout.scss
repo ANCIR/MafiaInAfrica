@@ -2,23 +2,15 @@
 .masthead {
 
   color: #fff !important;
-  text-align: center;
+  text-align: left;
 
   margin-bottom: 40px;
 
-  h1.logo {
-    margin: 20px 0;
-    font-weight: 900;
-    font-family: 'captured','Titillium Web', sans-serif;
-    vertical-align: middle;
-    img {
-      height: 43px;
-    }
-  }
-
   .masthead-outer {
-    background: url("/img/road.jpg") no-repeat center ;
+    background-image: url("/img/masthead.png");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
     .masthead-inner {
       padding: 60px 0;
@@ -31,15 +23,32 @@
 
       }
       h1 {
-        font-size: 80px;
-        margin-top: 10px;
-        border-bottom: 5px solid;
+        font-size: 70px;
+        font-weight: bold;
         display: inline-block;
         margin-bottom: 0;
-        padding-bottom: 10.5px;
       }
       h2 {
-        margin-bottom: 10px;
+        font-size: 40px;
+        margin-bottom: 30px;
+      }
+
+      .logo {
+        text-align: center;
+        h1{
+          font-family: 'captured_it','captured_it_2', sans-serif;
+          font-weight: normal;
+          font-size: 75px;
+        }
+      }
+
+      button {
+        border-radius: 9999px;
+        padding: 15px 35px;
+        background: none;
+        border: 2px solid;
+        font-size: 15px;
+        text-transform: uppercase;
       }
     }
 
@@ -50,7 +59,7 @@
 .navbar {
   .navbar-brand {
     img {
-      height: 21px;
+      height: 17px;
       vertical-align: top;
       display: inline-block;
     }

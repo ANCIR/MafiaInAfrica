@@ -1,12 +1,33 @@
 <header>
 
   <div class="masthead">
-    <h1 class="logo"><img src="{{ '/img/logo.jpg' | prepend: site.baseurl }}"/> A.N.C.I.R.</h1>
     <div class="masthead-outer">
       <div class="masthead-inner">
         <div class="container">
-          <h1>{{ page.title }}</h1>
-          <h2>{{ page.sub_title }}</h2>
+          <div class="row">
+            <div class="col-sm-6">
+              <h1>{{ site.title }}</h1>
+
+              <h2>{{ site.sub_title }}</h2>
+
+              <div class="btn-group">
+                <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                  Select Country <span class="fa fa-angle-down fa-lg"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-4 col-sm-offset-2 logo">
+              <img class="img-responsive center-block" src="{{ '/img/logo_white.png' | prepend: site.baseurl }}"/>
+              <h1>A.N.C.I.R</h1>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -23,7 +44,9 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ '/img/logo.jpg' | prepend: site.baseurl }}"/> {{ site.title }}</a>
+        <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ '/img/logo.jpg' | prepend: site.baseurl }}"/>
+          {{ site.title }}
+        </a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
