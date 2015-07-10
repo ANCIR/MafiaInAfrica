@@ -26,7 +26,7 @@
                     $('header .navbar').removeClass('navbar-static-top');
                     $('header .navbar').addClass('navbar-fixed-top');
 
-                    $('header .navbar-filler').height(59);
+                    $('header .navbar-filler').height(82);
                 } else {
                     $('header .navbar-brand').fadeOut();
                     $('header .navbar').addClass('navbar-static-top');
