@@ -21,6 +21,10 @@ header {
   color: #fff !important;
   text-align: left;
 
+  .dropdown-menu {
+    z-index: 2000;
+  }
+
   .masthead-outer {
     background-image: url("/img/masthead.png");
     background-size: cover;

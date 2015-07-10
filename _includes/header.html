@@ -19,13 +19,12 @@
               <div class="btn-group">
                 <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
-                  Select Country <span class="fa fa-angle-down fa-lg"></span>
+                  Select Investigation <span class="fa fa-angle-down fa-lg"></span>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li><a href="#">Separated link</a></li>
+                  {% for post in site.posts %}
+                  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                  {% endfor %}
                 </ul>
               </div>
             </div>
