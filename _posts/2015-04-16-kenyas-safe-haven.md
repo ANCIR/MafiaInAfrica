@@ -5,6 +5,7 @@ title: "Kenya's Safe Haven"
 author: Lorenzo Bagnoli, Lorenzo Bodrero
 
 masthead_pic: /img/kenyas_safe_haven/pic_1.jpg
+home_pic: /img/kenyas_safe_haven/pic_1_home.jpg
 ---
 
 <p class="lead"><em>“Do you honestly know anyone who has never evaded taxes?” asks Mario Mele, Italian businessman and fugitive, from a table at the busy Pata Pata Cafe in Malindi, Kenya.</em></p>

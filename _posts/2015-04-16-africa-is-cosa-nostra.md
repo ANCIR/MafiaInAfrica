@@ -5,6 +5,7 @@ title: "Africa: is Cosa Nostra"
 author: Giulio Rubino, Cecilia Anesi
 
 masthead_pic: /img/africa_is_cosa_nostra/pic_1.jpg
+home_pic: /img/africa_is_cosa_nostra/pic_1_home.jpg
 ---
 
 Vito Roberto Palazzolo, aka Robert Von Palace Kolbatshenko, currently sits in Milan's Opera Prison, condemned to a nine-year sentence for 'Mafia association' after evading Italian justice for nearly three decades.

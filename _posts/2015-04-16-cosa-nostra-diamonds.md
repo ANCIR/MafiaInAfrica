@@ -5,6 +5,7 @@ title: "Cosa Nostra Diamonds"
 author: Giulio Rubino, Cecilia Anesi
 
 masthead_pic: /img/cosa_nostra_diamonds/pic_1.jpg
+home_pic: /img/cosa_nostra_diamonds/pic_1_home.jpg
 ---
 
 <p class="lead"><em>Harare, Zimbabwe. Early January 2011. A man buys one million carats of blood diamonds. Cash. With rustling green American dollars, a single transaction worth tens if not hundreds of millions. He's young, good-looking and incredibly rich and powerful. His name is Antonino Messicati Vitale, and he is a boss of the Sicilian mafia, the Cosa Nostra.</em></p>

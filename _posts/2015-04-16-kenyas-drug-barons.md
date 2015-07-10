@@ -5,6 +5,7 @@ title: "Kenya's Drug Barons"
 author: Lorenzo Bagnoli, Lorenzo Bodrero
 
 masthead_pic: /img/kenyas_drug_barons/pic_1.jpg
+home_pic: /img/kenyas_drug_barons/pic_1_home.jpg
 ---
 
 <p class="lead"><em>In April and November last year, the Australian navy seized two consignments of heroin off the coast of Kenya, totalling 787 kg and worth about USD278m. Another haul was made in July when Kenyan police found 342 kg of heroin in the tank of a ship docked at the Mombasa port, making it the biggest ever single seizure of drugs in Kenya coastal city. The three seizures roughly equalled the amount captured by 11 east African governments between 1990 and 2009, according to the U.N. Office on Drugs and Crime.</em></p>

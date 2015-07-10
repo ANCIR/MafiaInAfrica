@@ -73,67 +73,19 @@ masthead_pic: /img/masthead.png
         <a name="articles" class="anchor"></a>
         <h2>Articles</h2>
         <div class="row">
+          {% for post in site.posts %}
           <div class="col-sm-6 col-xs-12">
-            <a href="#" class="thumbnail">
-              <img src="{{ '/img/cosa_nostra_diamonds/pic_1_home.jpg' | prepend: site.baseurl }}" alt=""/>
+            <a href="{{ post.url }}" class="thumbnail">
+              <img src="{{ site.baseurl }}{{ post.home_pic }}" alt="{{ post.title }}"/>
               <div class="caption">
-                <h3>Cosa Nostra Diamonds</h3>
+                <h3>{{ post.title }}</h3>
                 <hr class="branded"/>
               </div>
             </a>
           </div>
-          <div class="col-sm-6 col-xs-12">
-            <a href="#" class="thumbnail">
-              <img src="{{ '/img/kenyas_safe_haven/pic_1_home.jpg' | prepend: site.baseurl }}" alt=""/>
+          {% endfor %}
 
-              <div class="caption">
-                <h3>Kenya's Safe Haven</h3>
-                <hr class="branded"/>
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-6 col-xs-12">
-            <a href="#" class="thumbnail">
-              <img src="{{ '/img/cosa_nostra_ag/pic_1_home.jpg' | prepend: site.baseurl }}" alt=""/>
-
-              <div class="caption">
-                <h3>‘Cosa Nostra AG’</h3>
-                <hr class="branded"/>
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-6 col-xs-12">
-            <a href="#" class="thumbnail">
-              <img src="{{ '/img/africa_is_cosa_nostra/pic_1_home.jpg' | prepend: site.baseurl }}" alt=""/>
-
-              <div class="caption">
-                <h3>Africa: is Cosa Nostra</h3>
-                <hr class="branded"/>
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-6 col-xs-12">
-            <a href="#" class="thumbnail">
-              <img src="{{ '/img/charter_house_bank/pic_1_home.jpg' | prepend: site.baseurl }}" alt=""/>
-
-              <div class="caption">
-                <h3>Charter House Bank</h3>
-                <hr class="branded"/>
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-6 col-xs-12">
-            <a href="#" class="thumbnail">
-              <img src="{{ '/img/kenyas_drug_barons/pic_1_home.jpg' | prepend: site.baseurl }}" alt=""/>
-
-              <div class="caption">
-                <h3>Kenya's Drug Barons</h3>
-                <hr class="branded"/>
-              </div>
-            </a>
-          </div>
-
-        </div>
+        </div> <!-- /.row -->
       </div>
     </div> <!-- /.row -->
 

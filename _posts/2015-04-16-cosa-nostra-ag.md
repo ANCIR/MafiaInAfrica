@@ -5,6 +5,7 @@ title: "Cosa Nostra AG"
 author: Cecilia Anesi, Giulio Rubino 
 
 masthead_pic: /img/cosa_nostra_ag/pic_1.jpg
+home_pic: /img/cosa_nostra_ag/pic_1_home.jpg
 ---
 
 <p class="lead"><em>Isolated and alone in only a few square metres. All around are white walls. There is nobody to talk with. Nobody to write to. Correspondence with the external world is forbidden. No emails, no Facebook. Not even hand-written letters. Just silence. Slowly, you go mad. Even the 'hour of air' is spent alone. For if these men manage to communicate with the outside and get orders to the 'family', assets and people can disappear.</em></p>

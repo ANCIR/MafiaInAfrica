@@ -5,6 +5,7 @@ title: "Charter House Bank: A Money Laundering Machine"
 author: Lorenzo Bagnoli, Lorenzo Bodrero
 
 masthead_pic: /img/charter_house_bank/pic_1.jpg
+home_pic: /img/charter_house_bank/pic_1_home.jpg
 ---
 
 The first alarm went off in 2001 when a request by the Central Bank of Kenya (CBK) to the Charter House Bank (CHB) asking for full details about a US$20 million transaction was ignored.
