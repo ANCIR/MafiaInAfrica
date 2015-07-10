@@ -10,17 +10,29 @@
     $(document).ready(function () {
 
         // hide .navbar first
-        $(".navbar").hide();
+        $('.header .navbar-brand').hide();
+        $('header .navbar').addClass('navbar-static-top');
+        $('header .navbar').removeClass('navbar-fixed-top');
+
+        $('header .navbar-filler').height(0);
 
         // fade in .navbar
         $(function () {
             $(window).scroll(function () {
 
                 // set distance user needs to scroll before we start fadeIn
-                if ($(this).scrollTop() > $(".masthead").outerHeight(true)) {
-                    $('.navbar').fadeIn();
+                if ($(this).scrollTop() > $(".masthead").outerHeight()) {
+                    $('header .navbar-brand').fadeIn();
+                    $('header .navbar').removeClass('navbar-static-top');
+                    $('header .navbar').addClass('navbar-fixed-top');
+
+                    $('header .navbar-filler').height(59);
                 } else {
-                    $('.navbar').fadeOut();
+                    $('header .navbar-brand').fadeOut();
+                    $('header .navbar').addClass('navbar-static-top');
+                    $('header .navbar').removeClass('navbar-fixed-top');
+
+                    $('header .navbar-filler').height(0);
                 }
             });
         });

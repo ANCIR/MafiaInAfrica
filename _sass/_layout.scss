@@ -4,8 +4,6 @@
   color: #fff !important;
   text-align: left;
 
-  margin-bottom: 40px;
-
   .masthead-outer {
     background-image: url("/img/masthead.png");
     background-size: cover;
@@ -49,7 +47,6 @@
         border: 2px solid;
         font-size: 15px;
         text-transform: uppercase;
-        margin-bottom: 30px;
       }
     }
 
@@ -72,9 +69,7 @@
  * Custom Layout
  * ------------- */
 
-p.lead {
-  padding-top: 20px;
-  margin-top: 10px;
+hr.branded {
   border-top: 5px solid $brand-primary;
 }
 
@@ -85,20 +80,33 @@ p.lead {
 
 .home {
   .thumbnail {
-    h3 {
+    .caption {
       position: absolute;
-      top: 0;
+      bottom: 0;
       left: 0;
-      padding: 20px 30px;
-      text-align: center;
-      color: #fff;
+      padding: 30px 40px;
+      text-align: left;
+      width: 100%;
+      h3 {
+        color: #fff;
+      }
+      hr.branded {
+        border-top: 5px solid #ffffff;
+      }
+      &:hover {
+        h3 {
+          color: $brand-primary;
+        }
+        hr.branded {
+          border-top: 5px solid $brand-primary;
+        }
+      }
+
     }
     &:hover img {
       opacity: 0.5;
     }
-    &:hover h3 {
-      color: $brand-primary;
-    }
+
   }
 }
 
