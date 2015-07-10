@@ -59,7 +59,7 @@
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right hidden-xs">
           <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
           <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
           <li><a href="#"><i class="fa fa-google-plus fa-lg"></i></a></li>
@@ -67,7 +67,8 @@
         </ul>
 
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Investigations</a></li>
+          <li><a href="{{ site.baseurl }}/">Home</a></li>
+          <li><a href="{{ site.baseurl }}/#articles">Investigations</a></li>
           <li><a href="#">About</a></li>
           <li><a href="http://investigativecenters.org/" target="_blank">InvestigativeCenters.org</a></li>
         </ul>
@@ -79,5 +80,14 @@
   </nav>
 
   <div class="navbar-filler"></div>
+
+  <div class="container visible-xs">
+    <p>
+      <a href="" class="btn btn-primary"><i class="fa fa-facebook fa-lg"></i></a>
+      <a href="" class="btn btn-primary"><i class="fa fa-twitter fa-lg"></i></a>
+      <a href="" class="btn btn-primary"><i class="fa fa-google-plus fa-lg"></i></a>
+      <a href="" class="btn btn-primary"><i class="fa fa-envelope fa-lg"></i></a>
+    </p>
+  </div>
 
 </header>

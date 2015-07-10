@@ -65,8 +65,11 @@ masthead_pic: /img/masthead.png
         <p>Stefan Wehrmeyer</p>
         <h4>Pictures:</h4>
         <p>Giulio Rubino, Cecilia Anesi, Lorenzo Bodrero, Lorenzo Bagnoli</p>
+
+        <hr class="branded visible-sm visible-xs"/>
       </div>
       <div class="col-md-6 articles">
+        <a name="articles" class="anchor"></a>
         <h2>Articles</h2>
         <div class="row">
           <div class="col-sm-6 col-xs-12">
@@ -133,26 +136,6 @@ masthead_pic: /img/masthead.png
       </div>
     </div> <!-- /.row -->
 
-    <hr class="branded"/>
-
   </div> <!-- /.container -->
-
-
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-    <li>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-    </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

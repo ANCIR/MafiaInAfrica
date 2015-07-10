@@ -1,4 +1,21 @@
 
+/**
+ * Header Layout
+ * ------------- */
+
+header {
+  .navbar {
+    margin-bottom: 0;
+    .navbar-brand {
+      img {
+        height: 21px;
+        vertical-align: top;
+        display: inline-block;
+      }
+    }
+  }
+}
+
 .masthead {
 
   color: #fff !important;
@@ -14,7 +31,10 @@
       padding: 60px 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(0,0,0,0.2);
+
+      &.darken {
+        background-color: rgba(0,0,0,0.3);
+      }
 
       h1, h2 {
         color: #ffffff;
@@ -54,15 +74,19 @@
 
 }
 
-.navbar {
-  .navbar-brand {
-    img {
-      height: 21px;
-      vertical-align: top;
-      display: inline-block;
-    }
+
+
+/**
+ * Footer Layout
+ * ------------- */
+
+footer {
+  padding: 20px 0 20px;
+  hr {
+    margin-bottom: 40px;
   }
 }
+
 
 
 /**
@@ -107,6 +131,20 @@ hr.branded {
       opacity: 0.5;
     }
 
+  }
+}
+
+
+/**
+ * Home Layout
+ * ----------- */
+
+.post {
+  article {
+    padding: 40px 0 20px;
+    p {
+      font-size: 20px;
+    }
   }
 }
 
