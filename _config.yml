@@ -1,13 +1,17 @@
 # Site settings
 title: Mafia In Africa
 sub_title: How the Mafia Infiltrates the African Economy
-email: info@investigativecentres.org
+
 description: > # this means to ignore newlines until "baseurl:"
   The Italian mafia has established a hidden but lethal presence in Africa. Its members own diamond mines, nightclubs and land, all with the complicity of corrupt regimes.
+
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://mafiainafrica.investigativecenters.org" # the base hostname & protocol for your site
+url: https://mafiainafrica.investigativecenters.org # the base hostname & protocol for your site
+enforce_ssl: mafiainafrica.investigativecenters.org
 twitter_username: AfricanCIR
 github_username:  ANCIR
+email: info@investigativecentres.org
+
 google_analytics: UA-63787251-2
 
 # Build settings
