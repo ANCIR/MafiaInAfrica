@@ -13,6 +13,12 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
         href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}"/>
 
+  <script type="text/javascript">
+    var host = "{{ site.enforce_ssl }}";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+  </script>
+
   <!-- Latest compiled and minified CSS -->
 
   <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}">
